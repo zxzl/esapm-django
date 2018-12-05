@@ -9,8 +9,8 @@ python manage.py migrate
 
 docker-compose up
 ```
-Then try adding / deleting users.
+Then try adding / deleting users, and check APM section of Kibana running at `localhost:5601`.
 
 
 ### Glitches faced
-* Don't forget setting `DEBUG` to False. In Debug mode, APM module won't work.
+* Don't forget setting `DEBUG` to False in `settings.py`. In Debug mode, APM module won't work.
